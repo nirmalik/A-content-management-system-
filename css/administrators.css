@@ -1,0 +1,486 @@
+
+                body{               
+                    width:100%;
+                    height:auto;
+                    background: #eee url(https://subtlepatterns.com/patterns/extra_clean_paper.png);
+                    font-family: 'Karla', sans-serif;
+                }
+                .navbar {
+                    position:fixed;
+                    width:100%;
+                    border-bottom: 1px solid black;
+                }
+
+                img {
+                    padding-top:5px;
+                    padding-right:5px;
+                    width:40px;
+                    height:40px;
+                }
+
+                #loggedUser {
+                    padding-top:7px;
+                    padding-right:5px;
+                    font-weight: bold;
+                }
+
+                #logOut {
+                    position:absolute;
+                    font-size:13px;
+                    right:60px;
+                    padding-top:10px;  
+                }
+
+
+                .navbar-brand {
+                    width:110px;
+                    height:50px;
+                }
+
+                @media only screen and (max-width: 650px) {
+                    #welcome  {                          
+                        margin:0 auto;
+                        text-align: center;
+                        width:350px;
+                        margin-top:-10%;
+                    }
+
+                    #logOut {
+                        right:0;
+                    }
+                }
+
+                #all {
+                    border-left:2px solid black;
+                }
+
+                .col-xs-4 {
+                    height:100%;
+                    width:300px;
+                    color:white;
+                    background: linear-gradient(#434343 ,#000000);  
+                }
+
+                @media only screen and (max-width: 900px) {
+                    .col-xs-4  {
+                        width:100%; 
+                        height:450px;                       
+                    }
+                }
+                @media only screen and (max-width: 750px) {
+                    .col-xs-4  {
+                        width:100%; 
+
+                    }
+                }
+
+
+                .col-xs-6 { 
+                    height:350px; 
+                    overflow-y:auto;
+                    overflow-x:hidden;
+                    width:250px;  
+                    display:block;
+                    margin-top:35px;
+                }
+
+                @media only screen and (max-width: 900px) {
+                    .col-xs-6  {
+                        margin-left:33%; 
+                        margin-top:8%;
+                    }
+                }
+
+                @media only screen and (max-width: 500px) {
+                    .col-xs-6  {
+                        margin-left:20%;
+                        margin-top:15%;
+
+                    }
+                }
+
+                .main {             
+                    height:920px;
+                    width:100%;      
+                    padding-top:31px;                
+                }
+
+                .col-xs-8 {
+                    margin-top:20px;
+                    padding-top:30px;
+                    height:700px;   
+                    margin-left:100px;
+                    background: url('../uploads/book.jpg') fixed;
+                    background-size:cover;                  
+                }
+
+                @media only screen and (max-width: 1200px) {
+                    #mainContainer { 
+                        width:60%;
+                        margin-left:50px;
+                    }
+                }
+
+                @media only screen and (max-width: 900px) {
+                    #mainContainer { 
+                        width:100%;
+                        background:none;
+                        margin-left:10px;
+                    }
+                }
+
+                #adminList{
+                    font-size:18px;
+                    padding-left:7px;
+                    border-bottom:1px solid black;
+                }
+
+                .glyphicon-plus {
+                    font-size:13px;
+                    width:30px;
+                    height:23px;
+                    margin-bottom:5px;     
+                }
+
+                .form-style-5{
+                    color:black;       
+                    background: 0; 
+                    margin-top:40px;
+                    margin-right:50px;
+                    padding: 50px;
+                    opacity:0.8;
+                    border-radius: 8px;
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                    width:70%;
+                    overflow-y:auto;
+                    overflow-x:hidden;
+                    height:600px;
+                    position:relative;       
+                    background: 0;
+                }
+
+                @media only screen and (max-width: 1200px) {
+                    .form-style-5{                
+                        width:100%;                     
+
+                    }
+                }  
+
+                @media only screen and (max-width: 850px) {
+                    .form-style-5{                
+                        width:100%; 
+                        margin-top:0px;
+                    }
+                }            
+
+                .form-style-5{
+                    border: none;
+                }
+                .form-style-5 legend {
+                    font-size: 1.4em;
+                    margin-bottom: 10px;
+                }
+                .form-style-5 label {
+                    display: block;
+                    margin-bottom: 8px;
+                }
+                .form-style-5 input[type="text"], 
+                .form-style-5 input[type="password"],     
+                .form-style-5 textarea {
+                    background: rgba(255,255,255,.1);
+                    border: none;
+                    border-radius: 4px;
+                    font-size: 16px;
+                    margin: 0;
+                    outline: 0;
+                    padding: 7px;
+                    width: 100%;
+                    box-sizing: border-box; 
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box; 
+                    background-color: #e8eeef;
+                    color:#8a97a0;
+                    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+                    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+                    margin-bottom: 30px;
+
+                }
+
+                .form-style-5 input[type="text"]:focus, 
+                .form-style-5 input[type="password"]:focus, 
+                .form-style-5 textarea:focus
+                {
+                    background: #d2d9dd;
+                }
+                .form-style-5 select{
+                    -webkit-appearance: menulist-button;
+                    height:35px;
+                }
+                .form-style-5 .number {
+                    background: #1abc9c;
+                    color: #fff;
+                    height: 30px;
+                    width: 30px;
+                    display: inline-block;
+                    font-size: 0.8em;
+                    margin-right: 4px;
+                    line-height: 30px;
+                    text-align: center;
+                    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+                    border-radius: 15px 15px 15px 0px;
+                }
+
+                #save, #saveEdit
+                {
+                    position:absolute;
+                    display: block;           
+                    color: #FFF;          
+                    background: #1abc9c;
+                    font-size: 18px;
+                    text-align: center;
+                    font-style: normal;              
+                    border: 1px solid #16a085;
+                    border-width: 1px 1px 3px;
+                    top:0;
+                    left:0px;
+                }
+
+                .formHeader{
+                    width:115%;
+                    padding-bottom:5px;
+                    margin-left:-7.5%;
+                    border-bottom: 2px solid black;
+                    text-align:center;
+                }
+
+                #adminViewHeader {
+                    display:block;
+                    margin:0 auto;
+                }
+
+                @media only screen and (max-width: 700px) {
+                    #adminViewHeader  {
+
+                    }
+                }
+
+                #delete, #editAdmin
+                {
+                    position:absolute;           
+                    color: #FFF;          
+                    background: #1abc9c;
+                    font-size: 18px;
+                    text-align: center;
+                    font-style: normal;              
+                    border: 1px solid #16a085;
+                    border-width: 1px 1px 3px;
+                    top:0;
+                    right:0px;
+                    display:none;
+                }
+
+                @media only screen and (max-width: 650px) {
+                    #editAdmin {                     
+                        font-size: 14px;                   
+                    }
+                }
+
+                .form-style-5 input[type="submit"]:hover,
+                .form-style-5 input[type="button"]:hover
+                {
+                    background: #109177;
+                }
+
+                .adminAdd, .adminEdit, .adminView {
+                    display:none;
+                }
+
+
+
+                #showImage {
+                    display:block;
+                    margin:0 auto;
+                    width:85px;
+                    height:85px;
+                }
+
+                .adminsPhone {
+                    position:absolute;
+                    left:25%;
+                    font-weight: bold;
+                    padding-top:3%;     
+                }
+
+
+                .emailHeader {
+                    position:absolute;
+                    left:25%;
+                    font-weight: bold;
+                    padding-top:10%;  
+                }
+
+                fieldset{
+                    position:relative;
+                }
+
+                .adminsImage {
+                    padding-top:5px;
+                    padding-right:1px;
+                    width:50px;
+                    height:50px;
+                }
+
+                .adminImage {
+                    position:absolute;
+                    top:10px;
+                    left:10px;
+                    width:150px;
+                    height:150px;
+                    border-radius:50%;
+                }
+                @media only screen and (max-width: 650px) {
+                    .adminImage {
+                        position:initial;
+                        margin-bottom:10px;
+                        width:85px;
+                        height:85px;
+                    }
+                }
+
+
+                .allImages {
+                    position:absolute;
+                    top:10px;
+                    left:0px;
+                    width:90px;
+                    height:90px;
+                    border-radius:50%;
+                }
+
+                @media only screen and (max-width: 650px) {
+                    .allImages {
+                        position:initial;
+                        margin-bottom:10px;
+                        width:85px;
+                        height:85px;
+                    }
+                }
+
+                @media only screen and (max-width: 700px) {
+                    .adminImage {
+                        margin-right:10px;
+                        top:53px;
+                        left:15px;
+                        width:55px;
+                        height:55px;
+                    }
+                }
+
+                #adminName {
+                    bottom:30px;
+                    position:absolute;
+                    left:25%;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+
+                .adminlinks{
+                    position:relative;
+                }
+
+
+                .adminlinks:hover {
+                    cursor: pointer;
+                    transform: skew(-25deg) scale(1.1); 
+                    -moz-transform: skew(-25deg) scale(1.1);
+                    -o-transform: skew(-25deg) scale(1.1);                 
+                    cursor: pointer;
+                    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); 
+                    background-color: 	rgb(192,192,192);
+                }
+
+                .wrapper {
+                    margin-top:15px;
+                    border-bottom:1px solid black;
+                    padding-bottom:5px;
+                }
+
+                .adminDescription {
+                    text-align:center;
+                }
+
+                .adminLists{
+                    text-align:center;
+                    margin:10px;
+                    border-bottom:2px solid black;
+                    overflow-y:hidden;
+                }
+
+                .adminHeader{
+                    font-size:20px;
+                }
+
+
+                #myVideo {
+                    position: fixed;
+                    right: 0;
+                    bottom: 0;
+                    min-width: 100%; 
+                    min-height: 100%;
+                }
+
+                #totalStudents {
+                    font-size:16px;
+                    margin-top:-15px;
+                    transform:translateX(32%);
+                }
+
+                #newOwner,#Owner {
+                    display:none;
+                }
+
+                #showAdmins {              
+                    display:block;
+                    margin:0 auto;
+                    display:none;
+                }   
+
+                #footer {                    
+                    text-align: center;                   
+                    background: linear-gradient(#434343 ,#000000);        
+                    color:white;
+                    font-size: 16px;              
+                    padding:60px 0 0;
+                    position: fixed;
+                    clear: both;
+                    height:100px;
+                    width:100%;
+                    bottom:0;
+                }
+
+                .container-fluid{
+                    background: linear-gradient(#434343 ,#000000);
+                    color:white;
+                }
+
+                .navbar-default .navbar-nav>li>a{
+                    color:white;
+                }
+
+                h6{
+                    font-size:14px;
+                    position: absolute;
+                    left: 35%;
+                    font-weight: bold;
+                    padding-top: 8%;
+                }
+
+
+                .row {
+                    margin-left:0;
+                    margin-right:0;
+                }
+
+                #copyright {
+                    margin-top:-25px;
+                }

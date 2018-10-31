@@ -1,0 +1,135 @@
+
+        body {
+            background: url('http://farm3.staticflickr.com/2832/12303719364_c25cecdc28_b.jpg') fixed;
+            background-size: cover;
+            padding: 0;
+            margin: 0;
+        }
+
+        .form-control {
+            display: block;
+            width: 100%;
+            height: 34px;
+            padding: 6px 50px;
+            font-size: 23px;
+            line-height: 1.42857143;         
+        }
+
+
+        #username,#password {
+            width: 100%;
+            margin: 0;
+            padding: 5px 10px;
+            background-color:transparent !important;
+            border: 0;
+            border-bottom: 1px solid #FFFFFF;
+            font-style: italic;
+            font-size: 18px;
+            font-weight:700;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+            color: white;
+            outline: 0;
+        }
+
+        #username::placeholder, #password::placeholder {
+            color: #f6f6f6;
+            opacity: 1; /* Firefox */
+        }
+
+        .panel-login {
+            width: 100%;
+            height: 100%;
+            min-height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 99;
+
+        }
+
+        #login-submit {
+            width: 100%;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 500;
+            margin-top: 16px;
+            outline: 0;
+            cursor: pointer;
+            letter-spacing: 1px;
+            color: #fff;
+            background-color: #5cb85c;
+            border-color: #4cae4c;
+        }
+
+        .col-md-offset-3{
+            margin-top:150px;
+        }
+
+        #errorCol{
+            width:100%;
+        }
+
+        #loginError{
+            width:100%;
+            font-size:20px;
+            color:#cc0000;
+            display:inline;
+            white-space: nowrap;
+        }
+
+        @media only screen and (max-width: 650px) {
+            #loginError  {                          
+                font-size:13px;
+                white-space: nowrap;
+                float:left;
+            }
+        }
+
+        #errorCol {
+            margin:0 24%;   
+            margin-bottom:35px;
+        }
+
+        @media only screen and (max-width: 650px) {
+            #errorCol  {                          
+                margin:0 0%; 
+            }
+        }
+
+        #effect{          
+            background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 5%, #555 5%, #555 0%, transparent 0%, transparent 0%, #f6f6f6 15%);
+            background-size: 4px 4px;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 26px; 
+            font-weight: 900;
+            position: relative;
+            margin-left:2%;
+            line-height: 1; 
+            font-weight: bold;
+            color: #000000;
+        }
+
+        @media only screen and (max-width: 650px) {
+            #effect  {                          
+                font-size: 20px; 
+                font-weight: 300;
+                margin-left:10%; 
+            }
+        }
+
+        .panel-heading{
+            font-family: 'Open Sans' , sans-serif;
+            font-size: 20px;
+            text-align: center;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            border:none;
+            font-weight: bold;
+        }
+
+        .panel-body {
+            margin-top:-30px;
+        }
